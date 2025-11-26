@@ -1,0 +1,91 @@
+/* Container header */
+.header-container {
+  margin: 10px 15px;
+  padding: 5px 0;
+  background: cyan;
+  border-radius: 15px;
+}
+
+/* Judul*/
+.header-container .title {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 2px 2px #555;
+  margin: 0; 
+}
+
+/* Grid utama */
+.grid-container {
+  margin: 10px;
+  padding: 10px;
+  background: #ecfa91;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 12px;
+  border-radius: 15px;
+}
+
+/* Sidebar */
+.sidebar {
+  margin: 10px;
+  padding: 0 10px;
+  background: #90e07e;
+  grid-column: 1 / span 3;
+  border-radius: 8px;
+}
+
+/* Menu */
+.menu {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+  background: green;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+}
+
+/* Konten */
+.content {
+  margin: 10px;
+  padding: 10px;
+  background: #90e07e;
+  grid-column: 4 / span 9;
+  border-radius: 8px;
+}
+
+/* Logo */
+.content .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* isi */
+.content p {
+  color: #0b872c;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footer-container {
+  margin: 10px 15px;
+  padding: 5px 0;
+  background: #e3b059;
+  border-radius: 15px;
+}
+
+.footer-container .footer-title {
+  color: #b03f25;
+  text-align: center;
+  font-family: monospace;
+  margin: 0;
+  padding: 8px 0;
+}
